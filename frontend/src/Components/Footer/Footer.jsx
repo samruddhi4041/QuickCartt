@@ -14,7 +14,7 @@ import { useState } from "react";
 const Footer = () => {
   const [message, setMessage] = useState();
   const sendMessage = () => {
-    window.location = `https://wa.me/8779362797?text=${message}`;
+    window.location = `https://wa.me/1234567890?text=${message}`;
   };
   return (
     <>
@@ -33,7 +33,7 @@ const Footer = () => {
                 <Link>
                   <i
                     onClick={() => {
-                      window.location = `https://wa.me/8779362797?text=Say Hello..!!`;
+                      window.location = `https://wa.me/1234567890?text=Say Hello..!!`;
                     }}
                   >
                     {<IoLogoWhatsapp />}
@@ -60,7 +60,7 @@ const Footer = () => {
                 <i>
                   <MdPhoneForwarded />
                 </i>
-                +91 8779362797
+                +91 1234567890
               </Link>
 
               <a href="mailto:samruddhi4040@gmail.com" className="links">
